@@ -29,7 +29,7 @@ export default {
        />
     </div>
 
-    <div class="bg-[#000318] md:w-4/6 w-full px-24 pt-6 pb-10">
+    <div class="bg-[#000318] md:w-4/6 w-full px-24 pt-6">
       <div class="flex justify-end space-x-3">
         <button @click="censiusOn" 
         class="btn btn-circle btn-neutral active:bg-white active:text-black"
@@ -40,6 +40,10 @@ export default {
       <CurrentWeather :forecast="forecast" :censius="censius" />
 
       <TodaySHighlight :current="current" :degree="degree" />
+
+      <div class="pt-16 pb-2">
+        <h3 class="text-xs text-white underline text-center">Made with 💚 by King O. Wisdom</h3>
+      </div>
     </div>
   </main> 
   <div class="drawer-side">
