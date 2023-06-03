@@ -8,7 +8,7 @@ export default {
             forecast: [],
             current: '',
             location: '',
-            url: 'http://api.weatherapi.com/v1/',
+            url: 'https://api.weatherapi.com/v1/',
             // Weather image
             weatherImage: '',
             forecastImage: '',
