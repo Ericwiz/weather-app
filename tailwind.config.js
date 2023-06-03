@@ -1,4 +1,8 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
+
+// eslint-disable-next-line no-unused-vars
+const daisyui = require('daisyui');
 export default {
   content: [
     "./index.html",
@@ -17,6 +21,9 @@ export default {
     },
   },
   plugins: [
+    // eslint-disable-next-line no-undef
+    // require('daisyui')
+    
     // eslint-disable-next-line no-undef
     require('daisyui')
   ],
