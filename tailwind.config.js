@@ -16,15 +16,10 @@ export default {
       screens: {
         'mx-md': {'max': '767px'},
         'lg-xl': {'min': '1024px', 'max': '1279px'},
-        // => @media (max-width: 767px) { ... }
       }
     },
   },
   plugins: [
-    // eslint-disable-next-line no-undef
-    // require('daisyui')
-    
-    // eslint-disable-next-line no-undef
     require('daisyui')
   ],
 }
