@@ -19,8 +19,8 @@ export default {
 
 <template>
    <div class="flex flex-col mb-16">
-       <div class="grid grid-cols-1 gap-6 xl:gap-16  sm:grid-cols-2 xl:grid-cols-4 pt-12">
-        <div class="card lg:w-40 lg-xl:w-60 bg-[#010735]" v-for="(myDay, index) in forecast" :key="myDay">
+       <div class="grid mx-xs:w-64 place-content-center grid-cols-1 gap-6 xl:gap-16  sm:grid-cols-2 xl:grid-cols-4 pt-12">
+        <div class="card mx-auto mx-xs:w-full lg:w-40 lg-xl:w-60 bg-[#010735]" v-for="(myDay, index) in forecast" :key="myDay">
             <div class="card-body">
                 <p  class="card-title text-white text-center mx-auto text-sm xl:text-xs">
                 <template v-if="index === 0">

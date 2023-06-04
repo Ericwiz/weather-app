@@ -16,6 +16,7 @@ export default {
       screens: {
         'mx-md': {'max': '767px'},
         'lg-xl': {'min': '1024px', 'max': '1279px'},
+        'mx-xs': {'max': '479px'},
       }
     },
   },
@@ -23,4 +24,5 @@ export default {
     require('daisyui')
   ],
 }
+
 

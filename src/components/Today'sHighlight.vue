@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <h1 class="text-3xl text-white pb-8">Today's Highlights</h1>
+    <h1 class="text-3xl mx-xs:text-2xl text-white pb-8">Today's Highlights</h1>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         {{ console.log(current) }}
         {{ console.log(location) }}
