@@ -7,7 +7,7 @@ A Vue.js application that allows users to get the weather condition of any locat
 - Weather API
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your-username/weather-app`
+1. Clone the repository: `git clone https://github.com/Ericwiz/weather-app`
 2. Navigate to the project directory: `cd weather-app`
 3. Install dependencies: `npm install`
 
