@@ -2,6 +2,9 @@
 
 A Vue.js application that allows users to get the weather condition of any location of their choice, including their current location. Users can also view the weather forecast for their chosen location for the next five days. The application utilizes weather data from a weather API to provide accurate and up-to-date information.
 
+## Live Link
+[Weather App](https://kingstoncodes-weather-app.netlify.app/)
+
 ## Technologies Used
 - Vue.js
 - Weather API
